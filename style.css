@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+footer {
+    background-color: rgb(57, 145, 175);
+    height: 85px;
+}
+
+header {
+    background-color: rgb(35, 138, 173);
+    height: 100px;
+}
+
+section {
+    display: flex;
+    min-height: calc(100vh - 100px);
+}
+
+.img {
+    padding: 20px;
+}
+
+h1 {
+    margin: 40px;
+    color: gray;
+}
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #EDEDED;
+    list-style: none;
+}
+
+.redes-sociais ul li {
+    position: relative;
+    top: -50px;
+    left: -30px;
+    margin-left: 10px;
+    display: inline-block;
+    float: right;
+    list-style: none;
+}
+
+.menu {
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    float: right;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background: #333;
+    color: #fff;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
